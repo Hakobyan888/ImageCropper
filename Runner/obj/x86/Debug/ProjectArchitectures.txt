@@ -1,0 +1,1 @@
+C:\Users\haste\source\repos\ImageCropper\Runner\Runner.csproj;x86
