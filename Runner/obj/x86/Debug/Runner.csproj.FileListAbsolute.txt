@@ -81,3 +81,4 @@ C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\ImageCropperThumb.
 C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\WriteableBitmapEx.Uwp.dll
 C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\WriteableBitmapEx.Uwp.pdb
 C:\Users\haste\source\repos\ImageCropper\Runner\obj\x86\Debug\WriteableBitmapEx.Uwp.pri.xml
+C:\Users\haste\source\repos\ImageCropper\Runner\obj\x86\Debug\Runner.csproj.CoreCompileInputs.cache

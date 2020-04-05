@@ -45,7 +45,9 @@ namespace Controls
         {
             if (Source != null && IsValidRect(CanvasRect))
             {
-                var uniformSelectedRect = GetUniformRect(CanvasRect, _currentCroppedRect.Width / _currentCroppedRect.Height);
+                Rect uniformSelectedRect;
+                uniformSelectedRect = GetUniformRect(CanvasRect, _currentCroppedRect.Width / _currentCroppedRect.Height);
+
                 UpdateImageLayoutWithViewport(uniformSelectedRect, _currentCroppedRect, animate);
             }
         }
@@ -71,7 +73,10 @@ namespace Controls
             _inverseImageTransform.TranslateX = -_imageTransform.TranslateX / imageScale;
             _inverseImageTransform.TranslateY = -_imageTransform.TranslateY / imageScale;
             var selectedRect = _imageTransform.TransformBounds(_currentCroppedRect);
+            _restrictedCropRect = CalulateLargesRect(selectedRect.X, selectedRect.Y);
+
             _restrictedSelectRect = _imageTransform.TransformBounds(_restrictedCropRect);
+
             var startPoint = GetSafePoint(_restrictedSelectRect, new Point(selectedRect.X, selectedRect.Y));
             var endPoint = GetSafePoint(_restrictedSelectRect, new Point(
                 selectedRect.X + selectedRect.Width,
@@ -90,6 +95,44 @@ namespace Controls
 
             UpdateSelectedRect(startPoint, endPoint, animate);
         }
+
+        private Rect CalulateLargesRect(double rectX, double rectY)
+        {
+            var origWidth = Source.PixelWidth;
+            var origHeight = Source.PixelHeight;
+            double w0, h0;
+            if (origWidth <= origHeight)
+            {
+                w0 = origWidth;
+                h0 = origHeight;
+            }
+            else
+            {
+                w0 = origHeight;
+                h0 = origWidth;
+            }
+            var angle = (Math.PI / 180) * ImageRotation;
+            var ang = angle - Math.Floor((angle + Math.PI) / (2 * Math.PI)) * 2 * Math.PI;
+            ang = Math.Abs(ang);
+            if (ang > Math.PI / 2)
+                ang = Math.PI - ang;
+            var c = w0 / (h0 * Math.Sin(ang) + w0 * Math.Cos(ang));
+            double w, h;
+            if (origWidth <= origHeight)
+            {
+                w = w0 * c;
+                h = h0 * c;
+            }
+            else
+            {
+                w = h0 * c;
+                h = w0 * c;
+            }
+            var x = origWidth - w;
+            var y = origHeight - h;
+            return new Rect(new Point(x / 2, y / 2), new Point(x / 2 + w, y / 2 + h));
+        }
+
 
         /// <summary>
         /// Update cropped area.

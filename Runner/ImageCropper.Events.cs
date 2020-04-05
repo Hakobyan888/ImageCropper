@@ -136,8 +136,9 @@ namespace Controls
 
         private void SourceImage_ManipulationDelta(object sender, ManipulationDeltaRoutedEventArgs e)
         {
-            var offsetX = -e.Delta.Translation.X;
-            var offsetY = -e.Delta.Translation.Y;
+            var offsetX = Math.Abs(-e.Delta.Translation.X);
+            var offsetY = Math.Abs(-e.Delta.Translation.Y);
+            
             if (offsetX > 0)
             {
                 offsetX = Math.Min(offsetX, _restrictedSelectRect.X + _restrictedSelectRect.Width - _endX);

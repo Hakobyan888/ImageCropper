@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9B707AFFBB888323F96398B338AB19B19B3E9DA5923706AB6BBB6BD26AFEC817</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>36F49069EA68DB4746300ADF5F093DA62579DF1C8D029B16B3E17900CA2CC8AA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6ca1f9d9-99f2-43ff-9ad0-e8b871f991d7_1.0.0.0_x86__ag0pp8fkmx7yg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6ca1f9d9-99f2-43ff-9ad0-e8b871f991d7_ag0pp8fkmx7yg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6ca1f9d9-99f2-43ff-9ad0-e8b871f991d7</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-03-18T13:32:29.174</Modified>
+      <Modified>2020-04-05T12:51:19.718</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\Runner.exe">
       <PackagePath>entrypoint\Runner.exe</PackagePath>
-      <Modified>2020-03-18T13:32:26.434</Modified>
+      <Modified>2020-04-05T12:51:18.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\haste\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -146,23 +146,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\Runner.xr.xml">
       <PackagePath>Runner.xr.xml</PackagePath>
-      <Modified>2020-03-11T09:57:33.954</Modified>
+      <Modified>2020-04-05T10:59:56.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-03-18T09:40:39.335</Modified>
+      <Modified>2020-04-05T12:51:18.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\ImageCropper.xbf">
       <PackagePath>ImageCropper.xbf</PackagePath>
-      <Modified>2020-03-18T09:40:39.335</Modified>
+      <Modified>2020-04-05T12:51:18.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\ImageCropperThumb.xbf">
       <PackagePath>ImageCropperThumb.xbf</PackagePath>
-      <Modified>2020-03-18T09:40:39.335</Modified>
+      <Modified>2020-04-05T12:51:18.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-03-18T09:40:39.335</Modified>
+      <Modified>2020-04-05T12:51:18.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -170,11 +170,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-03-10T15:42:25.427</Modified>
+      <Modified>2020-04-04T19:43:39.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\haste\source\repos\ImageCropper\Runner\bin\x86\Debug\Core\Runner.exe">
       <PackagePath>Runner.exe</PackagePath>
-      <Modified>2020-03-18T13:32:29.151</Modified>
+      <Modified>2020-04-05T12:51:19.714</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -234,36 +234,36 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.27810.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.27810.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.27810.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.27810.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

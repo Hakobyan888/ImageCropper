@@ -93,7 +93,7 @@ namespace Controls
                 //_restrictedSelectRect.Width = _currentCroppedRect.Width;
                 //_restrictedSelectRect.Height = _currentCroppedRect.Height;
                 //_restrictedSelectRect.X = _currentCroppedRect.X;
-                UpdateImageLayout();
+                UpdateImageLayout(true);
 
             }
         }
@@ -116,7 +116,6 @@ namespace Controls
                 ImageCenterY = _restrictedCropRect.Height / 2;
 
                 UpdateImageLayout(true);
-                ImageRotation += 0.001;
             }
         }
 
